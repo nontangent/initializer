@@ -30,7 +30,7 @@ git init;
 git add -A;
 git commit -m 'initial commit';
 
-if [ $1 != 'test' ]; then 
+if [ $1 != 'tmp' ]; then 
     gh repo create $1/app --private -y;
     git push -u origin master;
 fi;
