@@ -1,0 +1,28 @@
+{
+  "name": "initializer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@octokit/rest": "^18.0.12",
+    "cac": "^6.7.1",
+    "firebase-tools": "^9.0.1",
+    "octokit": "^1.0.0-hello-world",
+    "simple-git": "^2.30.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node initializer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nontangent/initializer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nontangent/initializer/issues"
+  },
+  "homepage": "https://github.com/nontangent/initializer#readme"
+}
