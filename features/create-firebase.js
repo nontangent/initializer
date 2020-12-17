@@ -106,7 +106,7 @@ async function getRepository(projectName, name) {
 }
 
 async function createRepository(projectName, name) {
-  const params = { org: projectName, name: name };
+  const params = { org: projectName, name: name, private: true };
   const res = await octokit.request('POST /orgs/{org}/repos', params);
   return convertDataToRepository(res.data);
 }
